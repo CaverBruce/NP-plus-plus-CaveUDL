@@ -1,5 +1,5 @@
-<NotepadPlus>    
-	<UserLang name="Therion60" ext="th th2 thc thconfig" udlVersion="2.1">
+<NotepadPlus>
+    <UserLang name="Therion60" ext="th th2 thc thconfig" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
@@ -18,17 +18,17 @@
             <Keywords name="Folders in code1, open"></Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
             <Keywords name="Folders in code1, close"></Keywords>
-            <Keywords name="Folders in code2, open">centerline centreline code grade group layout line map revise scrap surface survey lookup</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
             <Keywords name="Folders in code2, middle"></Keywords>
-            <Keywords name="Folders in code2, close">endarea endcenterline endcentreline endcode endgrade endgroup endlayout endline endmap endrevise endscrap endsurface endsurvey endlookup</Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
-            <Keywords name="Keywords1"></Keywords>
-            <Keywords name="Keywords2"></Keywords>
-            <Keywords name="Keywords3"></Keywords>
-            <Keywords name="Keywords4"></Keywords>
-            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords1">survey endsurvey centreline endcentreline scrap endscrap code endcode</Keywords>
+            <Keywords name="Keywords2">line endline area endarea map endmap surface endsurface grade endgrade revise endrevise source endsource layout endlayout lookup endlookup map endmap group endgroup</Keywords>
+            <Keywords name="Keywords3">wall enc encoding input join point import system encoding language sketch-warp input select unselect maps maps-offset log text setup3d sketch-colours export namespace person-rename -title entrance data date team explo-date explo-team -author -copyright instrument calibrate units sd declination grid grid-angle infer mark flags station stations cs fix equate data break walls vthreshold -proj -projection -scale base-scale sketch flip point dimensions section altitude height label passage-height remark grid-units grid-flip bitmap bedrock blocks clay debris guano ice mudcrack mud pebbles raft sand snow water sump invisible underlying overlying unsurveyed presumed conjectural anastomosis aragonite cave-pearl clay-tree crystal curtains curtain disc-pillar disc-stalactite disc-stalagmite disc-pillars discstalactites disc-stalagmites disk flowstone flute gypsum-flower gypsum helictites helictite karren moonmilk pendant pillar-with-curtains pillars-with-curtains pillar popcorn raft-cone rimstone-dam rimstonepool scallop soda-straw stalactite-stalagmite stalactites-stalagmites stalactite stalagmite volcano wall-calcite anchor bridge camp fixed-ladder gate masonry nameplate noequipment no-wheelchair rope-ladder rope steps traverse walkway wheelchair breakdown-choke clay-choke flowstonechoke low-end narrow-end air-draught altar archeo-excavation archeo-material audio bat bones danger dig electric-light ex-voto extra gradient human-bones ice-pillar ice-stalactite ice-stalagmite map-connection paleo-material photo root seed-germination sink spring tree-trunk u vegetable-debris water-drip water-flow -subtype subtype orient -orientation -align place -clip dist from visibility context symbol-hide symbol-show symbol-colour min-symbol-scale fonts-setup -name extend value -close -reverse size smooth adjust border direction head count -surveys map-level chapter-level  copy north overlap page-setup page-numbers exclude-pages debug symbol-set -o -output -fmt -format enable disable wall-source -attributes -location -station-name</Keywords>
+            <Keywords name="Keywords4">-id m meter meters in inch inches ft feet deg degree degrees min minute minutes grad grads mil mils percent percentage origin EPSG ESRI on off auto instruments not left right vertical start ignore hide none plan elevation extended temporary painted natural fixed undefined permanent intermittent paleo c centre t top b bottom l left r right tl top-left tr top-right bl bottom-left br bottom-right default prev previous &lt;br&gt; &lt;centre&gt; &lt;center&gt; &lt;left&gt; &lt;right&gt; &lt;thsp&gt; &lt;rm&gt; &lt;it&gt; &lt;bf&gt; &lt;ss&gt; &lt;si&gt; &lt;rtl&gt; &lt;/rtl&gt; lang contour slope floor-step pit ceiling-step chimney over-hang ceiling-meander floor-meander low-ceiling pit-chimney rock-border rock-edge abyss dripline fault joint rimstone-pool arrow cave -outline in out r-size l-size horizontal vertical begin end both preview above below color colour map-fg map-bg -filter create use ignore clino compass length tape recursive title-pages true rotate symbol-assign special nav-factor nav-size transparency opacity surface-opacity sketches layers grid-origin grid-size grid-coords origin-label own-pages page-grid legend legend-columns legend-width colour-legend map-comment endcomment map-header map-header-bg map-image discrete statistics explo topo carto explo-length topo-length carto-count copyright-count scale-bar survey-level color-model colour-model color-profile colour-profile smooth-shading all first second scrap-names station-names doc-author doc-keywords doc-subject doc-title metapost tex-map tex-atlas metric imperial flag labels n s e w ne nw se sw c centre model cave-list survey-list continuation-list database splay-shots splays nosurvey</Keywords>
+            <Keywords name="Keywords5">continuation winter summer doline arch overhang duplicate splay attr cmyk rgb greyscale quick UIS ASF AUT BCRA NSS NZSS SBE SKBB loch lox plt survex 3d dxf esri vrml 3dmf kml pdf svg html xhtml xvi bbox sql csv dbf approximate transparent</Keywords>
             <Keywords name="Keywords6"></Keywords>
             <Keywords name="Keywords7"></Keywords>
             <Keywords name="Keywords8"></Keywords>
@@ -39,20 +39,20 @@
             <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFD9" fontStyle="0" nesting="0" />
             <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFD9" fontStyle="0" nesting="0" />
             <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF0000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF8000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="800080" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="400040" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
             <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="OPERATORS" fgColor="800000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="800000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
             <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS1" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS2" fgColor="FF8040" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="0000FF" bgColor="FFFFFF" fontStyle="2" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="FF8040" bgColor="FFFFFF" fontStyle="3" nesting="0" />
             <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
@@ -61,4 +61,4 @@
             <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
         </Styles>
     </UserLang>
-</NotepadPlus>	
+</NotepadPlus>

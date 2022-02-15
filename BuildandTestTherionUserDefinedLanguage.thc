@@ -1,0 +1,40 @@
+# FILENAME: BuildandTestTherionUserDefinedLanguage.thc
+A file used to collate groups of Therion keywords in preparation for pasting them into NotePad++'s User Defined language dialog.
+It also acts as a test bed to check that the keyword list is working correctly.
+TIP: Create folds AFTER creating keywords, otherwise the keywords don't seem to work.
+CaverBruce 2022
+
+fold 1
+###################
+centreline code group layout line map revise scrap surface lookup survey
+
+fold 2
+###################
+endcentreline endcode endgroup endlayout endline endmap endrevise endscrap endsurface endlookup endsurvey
+
+
+###################
+###################
+
+
+one main context blocks with ends
+###################
+survey endsurvey centreline endcentreline scrap endscrap code endcode
+
+
+two main objects with ends
+###################
+line endline area endarea map endmap surface endsurface grade endgrade revise endrevise source endsource layout endlayout lookup endlookup map endmap group endgroup
+
+three options keywords
+###################
+wall enc encoding input join point import system encoding language sketch-warp input select unselect maps maps-offset log text setup3d sketch-colours export namespace person-rename -title title -entrance entrance data date team explo-date explo-team -author author -copyright copyright instrument calibrate units sd declination grid grid-angle infer mark flags station stations cs fix equate data break walls vthreshold -proj proj -projection projection -scale scale base-scale sketch flip point dimensions section altitude height label passage-height remark grid-units grid-flip bitmap bedrock blocks clay debris guano ice mudcrack mud pebbles raft sand snow water sump invisible underlying overlying unsurveyed presumed conjectural anastomosis aragonite cave-pearl clay-tree crystal curtains curtain disc-pillar disc-stalactite disc-stalagmite disc-pillars discstalactites disc-stalagmites disk flowstone flute gypsum-flower gypsum helictites helictite karren moonmilk pendant pillar-with-curtains pillars-with-curtains pillar popcorn raft-cone rimstone-dam rimstonepool scallop soda-straw stalactite-stalagmite stalactites-stalagmites stalactite stalagmite volcano wall-calcite anchor bridge camp fixed-ladder gate masonry nameplate noequipment no-wheelchair rope-ladder rope steps traverse walkway wheelchair breakdown-choke clay-choke flowstonechoke low-end narrow-end air-draught altar archeo-excavation archeo-material audio bat bones danger dig electric-light ex-voto extra gradient human-bones ice-pillar ice-stalactite ice-stalagmite map-connection paleo-material photo root seed-germination sink spring tree-trunk u vegetable-debris water-drip water-flow -subtype subtype orient -orientation orientation -align align place -clip clip dist -from from to visibility context symbol-hide symbol-show symbol-colour min-symbol-scale fonts-setup -name extend value -close -reverse size smooth adjust border direction head count -surveys map-level chapter-level  copy north overlap page-setup page-numbers exclude-pages debug symbol-set -o -output -layout -fmt -format enable disable wall-source -attributes -location -station-name
+
+four options arguments
+###################
+-id cm m meter meters in inch inches ft feet deg degree degrees min minute minutes grad grads mil mils percent percentage origin EPSG ESRI on off auto instruments notes dog not left right vertical start hide none plan elevation extended temporary painted natural fixed undefined permanent intermittent paleo c centre t top b bottom l left r right tl top-left tr top-right bl bottom-left br bottom-right up down default prev previous <br> <centre> <center> <left> <right> <thsp> <rm> <it> <bf> <ss> <si> <rtl> </rtl> lang contour slope floor-step pit ceiling-step chimney over-hang ceiling-meander floor-meander low-ceiling pit-chimney rock-border rock-edge abyss dripline fault joint rimstone-pool arrow cave -outline in out r-size l-size horizontal vertical begin end both preview above below color colour map-fg map-bg -filter create use ignore ignoreall clino compass length tape recursive title-pages true rotate symbol-assign special nav-factor nav-size transparency opacity surface-opacity sketches layers grid-origin grid-size grid-coords origin-label own-pages page-grid legend legend-columns legend-width colour-legend map-comment endcomment map-header map-header-bg map-image discrete statistics explo topo carto explo-length topo-length carto-count copyright-count scale-bar survey-level color-model colour-model color-profile colour-profile smooth-shading all first second scrap-names station-names doc-author doc-keywords doc-subject doc-title metapost tex-map tex-atlas metric imperial flag labels n s e w ne nw se sw c centre xs xl model cave-list survey-list continuation-list database splay-shots splays nosurvey normal
+   
+
+five flags
+###################
+continuation winter summer doline arch overhang duplicate splay attr cmyk rgb greyscale quick UIS ASF AUT BCRA3 BCRA5 NSS NZSS SBE SKBB loch lox plt survex 3d dxf esri vrml 3dmf kml pdf svg html xhtml xvi bbox sql csv dbf approximate transparent

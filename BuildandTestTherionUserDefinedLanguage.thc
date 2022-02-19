@@ -1,14 +1,24 @@
 # FILENAME: BuildandTestTherionUserDefinedLanguage.thc
+Feb2022
 A file used to collate groups of Therion keywords in preparation for pasting them into NotePad++'s User Defined language dialog.
 It also acts as a test bed to check that the keyword list is working correctly.
-TIP: Create folds AFTER creating keywords, otherwise the keywords don't seem to work.
-CaverBruce 2022
 
-fold 1
+Keywords and commands are bold
+Metapost and tex variables are italic
+
+Development Notes:
+1: Folds break keyword styling where the same keyword appears in both, so while it would be nice to have both, I think better to have keywords and not folds
+2: \ character as Operator 1 prevents tex keywords (that start with \) being styled, so have removed \ from operators.  Note that \ remains as a continue character for comments that start with #.  Alas the \ as continuation styler no longer works.
+3: Comment block style comment and endcomment have been removed, as the comment keyword breaks other styles that include the same string characters.  They are included as keywords 4 however.
+
+
+
+
+fold 2 open
 ###################
 centreline code group layout line map revise scrap surface lookup survey
 
-fold 2
+fold 2 close
 ###################
 endcentreline endcode endgroup endlayout endline endmap endrevise endscrap endsurface endlookup endsurvey
 
@@ -22,9 +32,9 @@ one main context blocks with ends
 survey endsurvey centreline endcentreline scrap endscrap code endcode
 
 
-two main objects with ends
+two main Therion objects and metapost commands with ends
 ###################
-line endline area endarea map endmap surface endsurface grade endgrade revise endrevise source endsource layout endlayout lookup endlookup map endmap group endgroup
+line endline area endarea map endmap surface endsurface grade endgrade revise endrevise source endsource layout endlayout lookup endlookup map endmap group endgroup def enddef if fi begingroup 
 
 three options keywords
 ###################
@@ -32,20 +42,23 @@ wall enc encoding input join point import system encoding language sketch-warp i
 
 four options arguments
 ###################
--id cm m meter meters in inch inches ft feet deg degree degrees min minute minutes grad grads mil mils percent percentage origin EPSG ESRI on off auto instruments notes dog not left right vertical start hide none plan elevation extended temporary painted natural fixed undefined permanent intermittent paleo c centre t top b bottom l left r right tl top-left tr top-right bl bottom-left br bottom-right up down default prev previous <br> <centre> <center> <left> <right> <thsp> <rm> <it> <bf> <ss> <si> <rtl> </rtl> lang contour slope floor-step pit ceiling-step chimney over-hang ceiling-meander floor-meander low-ceiling pit-chimney rock-border rock-edge abyss dripline fault joint rimstone-pool arrow cave -outline in out r-size l-size horizontal vertical begin end both preview above below color colour map-fg map-bg -filter create use ignore ignoreall clino compass length tape recursive title-pages true rotate symbol-assign special nav-factor nav-size transparency opacity surface-opacity sketches layers grid-origin grid-size grid-coords origin-label own-pages page-grid legend legend-columns legend-width colour-legend map-comment endcomment map-header map-header-bg map-image discrete statistics explo topo carto explo-length topo-length carto-count copyright-count scale-bar survey-level color-model colour-model color-profile colour-profile smooth-shading all first second scrap-names station-names doc-author doc-keywords doc-subject doc-title metapost tex-map tex-atlas metric imperial flag labels n s e w ne nw se sw c centre xs xl model cave-list survey-list continuation-list database splay-shots splays nosurvey normal
+-id cm m meter meters in inch inches ft feet deg degree degrees min minute minutes grad grads mil mils percent percentage origin EPSG ESRI on off auto instruments notes dog not left right vertical start hide none plan elevation extended temporary painted natural fixed undefined permanent intermittent paleo c centre t top b bottom l left r right tl top-left tr top-right bl bottom-left br bottom-right up down default prev previous <br> <centre> <center> <left> <right> <thsp> <rm> <it> <bf> <ss> <si> <rtl> </rtl> lang contour slope floor-step pit ceiling-step chimney over-hang ceiling-meander floor-meander low-ceiling pit-chimney rock-border rock-edge abyss dripline fault joint rimstone-pool arrow cave -outline in out r-size l-size horizontal vertical begin end both preview above below color colour map-fg map-bg -filter create use ignore ignoreall clino compass length tape recursive title-pages true rotate symbol-assign special nav-factor nav-size transparency opacity surface-opacity sketches layers grid-origin grid-size grid-coords origin-label own-pages page-grid legend legend-columns legend-width colour-legend map-comment comment endcomment map-header map-header-bg map-image discrete statistics explo topo carto explo-length topo-length carto-count copyright-count scale-bar survey-level color-model colour-model color-profile colour-profile smooth-shading all first second scrap-names station-names doc-author doc-keywords doc-subject doc-title metapost tex-map tex-atlas metric imperial flag labels n s e w ne nw se sw c centre xs xl model cave-list survey-list continuation-list database splay-shots splays nosurvey normal
    
 
 five flags
 ###################
 continuation winter summer doline arch overhang duplicate splay attr cmyk rgb greyscale quick UIS ASF AUT BCRA3 BCRA5 NSS NZSS SBE SKBB loch lox plt survex 3d dxf esri vrml 3dmf kml pdf svg html xhtml xvi bbox sql csv dbf approximate transparent
 
-six metapost variables
+six unused
+##################
+
+
+
+seven metapost variables
 ###################
 ATTR__shotflag_splay ATTR__shotflag_duplicate ATTR__shotflag_approx ATTR__stationflag_splay ATTR__scrap_centerline ATTR__elevation ATTR__height ATTR__id ATTR__survey ATTR__scrap ATTR__text NorthDir MagDecl GridConv
 
-seven metapost commands
-##################
-def enddef if fi begingroup endgroup 
+
 
 eight tex variables
 ################

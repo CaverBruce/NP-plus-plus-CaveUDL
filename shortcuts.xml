@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <!--
+    You can organize your Macro menu & Run menu by adding the attribute 'FolderName="My sub-menu name"' to any Macro or Command node.
+    This will place the corresponding node within a "My sub-menu name" sub-menu in the appropriate menu. Please consider the following examples:
+    -->
+    <InternalCommands>
+        <Shortcut id="41003" Ctrl="yes" Alt="no" Shift="no" Key="115" />
+        <Shortcut id="41004" Ctrl="yes" Alt="no" Shift="yes" Key="115" />
+    </InternalCommands>
+    <Macros>
+        <Macro name="Trim Trailing Space and Save" Ctrl="no" Alt="yes" Shift="yes" Key="83">
+            <Action type="2" message="0" wParam="42024" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="41006" lParam="0" sParam="" />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands>
+        <Command name="Get PHP help" Ctrl="no" Alt="yes" Shift="no" Key="112">https://www.php.net/$(CURRENT_WORD)</Command>
+        <Command name="Wikipedia Search" Ctrl="no" Alt="yes" Shift="no" Key="114">https://en.wikipedia.org/wiki/Special:Search?search=$(CURRENT_WORD)</Command>
+        <Command name="Open highlighted file" Ctrl="no" Alt="yes" Shift="no" Key="116">$(NPP_DIRECTORY)\notepad++.exe "$(CURRENT_DIRECTORY)\$(CURRENT_WORD)"</Command>
+        <Command name="Open highlighted in another instance" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_DIRECTORY)\notepad++.exe "$(CURRENT_DIRECTORY)\$(CURRENT_WORD)" -nosession -multiInst</Command>
+        <Command name="Open containing folder" Ctrl="no" Alt="yes" Shift="no" Key="118">explorer $(CURRENT_DIRECTORY)</Command>
+        <Command name="Open current dir cmd" Ctrl="no" Alt="yes" Shift="no" Key="119">cmd /K cd $(CURRENT_DIRECTORY)</Command>
+        <Command name="XTherion_THIS_file" Ctrl="yes" Alt="yes" Shift="no" Key="88">"C:\Program Files\Therion\bin\wish86.exe" "C:\Program Files\Therion\xtherion.tcl" "$(FULL_CURRENT_PATH)"</Command>
+        <Command name="Mapiah_THIS_file" Ctrl="yes" Alt="yes" Shift="no" Key="77">"C:\Program Files (x86)\Mapiah\mapiah.exe" "$(FULL_CURRENT_PATH)"</Command>
+    </UserDefinedCommands>
+    <PluginCommands />
+    <ScintillaKeys />
+</NotepadPlus>
